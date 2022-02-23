@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <course-goals></course-goals>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CourseGoals from './components/CourseGoals.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CourseGoals
   }
 }
 </script>
